@@ -1,0 +1,60 @@
+.grid-items
+{
+    margin-top: 1vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 10vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+
+} 
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+} 
+.grid-container>:nth-child(1){
+background-image: url(../img/BootstrapImage.svg);
+}
+.grid-container>:nth-child(2){
+background-image: url(../img/CssImage.svg);
+}
+.grid-container>:nth-child(3){
+background-image: url(../img/FigmaImage.svg);
+}
+.grid-container>:nth-child(4){
+background-image: url(../img/HTMLImage.svg);
+}
+.grid-container>:nth-child(5){
+background-image: url(../img/JSImage.svg);
+}
+.grid-container>:nth-child(6){
+background-image: url(../img/PhotoshopImage.svg);
+}
+.grid-container>:nth-child(7){
+background-image: url(../img/react.svg);
+}
+.grid-container>:nth-child(8){
+background-image: url(../img/SassImage.svg);
+}
+.grid-container>:nth-child(9){
+background-image: url(../img/VisualStudioImage.svg);
+}
+.grid-container>:nth-child(10){
+background-image: url(../img/WindowsImage.svg);
+}  
+
+@media only screen and (max-width: 768px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .grid-container{
+        grid-template-columns:  1fr 1fr;
+    }
+}

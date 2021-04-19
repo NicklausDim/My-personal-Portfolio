@@ -1,0 +1,21 @@
+.pic-container {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+} 
+.pictures {
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+}
+.img1 {
+    filter: sepia(1); 
+}
+.img2 {
+    filter: gray; 
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+}
+.subtopic{
+background-color: rgb(246, 62, 62);}

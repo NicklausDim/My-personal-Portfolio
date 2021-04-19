@@ -1,0 +1,34 @@
+.project-container{
+    display: inline-block;
+}
+.project1, .project2, .project3, .project4
+{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    margin-top: 100px;
+}
+.project1 p, .project2 p, .project3 p, .project4 p{
+    background-color: rgb(251, 251, 251);
+    font-size: larger;
+    font-weight: 1000;
+    width: 300px;
+    margin: auto;
+    color: indianred;
+}
+
+.project1{
+    background-image: url("../img/budjet.png");
+}
+.project2{
+    background-image: url("../img/cat-Loading.png");
+}
+.project3{
+    background-image: url("../img/ecard-creator.png");
+}
+.project4{
+    background-image: url("../img/hamburger.png");
+}
