@@ -1,7 +1,6 @@
 .pic-container {
-    width: 500px;
-    height: 200px;
-    background-color: black;
+    width: 50vw;
+    height: 20vw;
     margin: auto;
 } 
 .pictures {
@@ -19,3 +18,24 @@
 }
 .subtopic{
 background-color: rgb(246, 62, 62);}
+
+@media only screen and (max-width: 820px) {
+    .pictures {
+        display: inline-block;
+        height: 80%;
+        width: 40%;
+    }
+    .pic-container {
+        width: 500px;
+        height: 160px;
+        margin: auto;
+    } 
+    .subtopic{
+        background-color: rgb(246, 62, 62);
+    }
+    .img1, .img2{
+        display: none;
+    }
+        
+    
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px) {
+    .Navbar{
+        background-color: black;
+        position: fixed;
+        width: 100vw;
+        height: 5vh;
+        
+    }
+    .nav{
+        padding: 0;
+    }
+}
+
+nav
+{
+  background: black;
+}

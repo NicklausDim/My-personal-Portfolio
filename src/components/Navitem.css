@@ -1,0 +1,36 @@
+nav ul{
+    font-size:var(--fontsize-nav) ;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: #f4f5f9 !important;
+  }
+  nav ul li
+  {
+    margin:40px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    nav ul{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: -60px;
+        width: 100vw;
+        justify-content: center;
+        z-index: 1;
+    }
+}
+@media only screen and (max-width: 820px) {
+    nav ul{
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        top: -45px;
+    }
+    nav ul li{
+        margin:40px;
+        margin-left: -15px;
+    }
+}

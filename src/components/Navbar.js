@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import "./Navbar.css";
 
 class Navbar extends Component {
     constructor(props)
@@ -20,7 +21,7 @@ class Navbar extends Component {
     };
     render() {
         return (
-            <nav>
+            <nav className="Navbar">
             <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
             <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>

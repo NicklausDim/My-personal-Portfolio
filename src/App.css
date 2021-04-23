@@ -24,18 +24,12 @@ body{
 .social{
   background-color: rgb(209, 207, 207);
 }
-nav
-{
-  padding:60px 30px 0px 30px ;
-  flex:var(--sidebar-flex);
-  background: black;
-}
 .condiv
 {
   text-align: center;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
-  top: 30px;
+  top: 30px; 
 }
 
 .home
@@ -58,17 +52,6 @@ nav
   margin-bottom: 30px;
 }
 
-nav ul{
-  font-size:var(--fontsize-nav) ;
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  color: #f4f5f9 !important;
-}
-nav ul li
-{
-  margin:40px;
-}
 
 a
 {
@@ -120,44 +103,8 @@ h1,h2,h3,h4,p{
   margin:30px;
 }
 
-@media all and (max-width: 450px) {
-  :root {
-    --fontsize-nav:1rem;
-    --sidebar-flex:0;
-    --typing-font:2rem;
-  }
-  .App
-  {
-    flex-direction: column;
-  }
-  .sidebar
-  {
-    padding: 30px;
-    background: rgb(238,103,143);
-    background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
-  }
-  .condiv
-  {
-    padding: 50px ;
-  }
-  nav ul
-  {
-    display: flex;
-  }
-  nav ul li
-  {
-    margin: 10px;
-  }
-  .social
-  {
-    left:0;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    bottom: 30px;
-  }
-  .social i
-  {
-    padding-right: 0px;
+@media only screen and (max-width: 1200px) {
+  .condiv{
+    padding-top: 30px;
   }
 }

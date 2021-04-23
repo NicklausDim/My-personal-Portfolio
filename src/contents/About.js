@@ -26,6 +26,7 @@ class About extends Component {
             <p>
                 My hobbies include music, animals, tennis and table tennis, coding, and of course long walks on the beach!
             </p>
+            <br/>
             <div className="pic-container">
                 <img className="pictures img1" src={profilePic} alt="profile pic"/>
                 <img className="pictures img2" src={profilePic} alt="profile pic"/>
