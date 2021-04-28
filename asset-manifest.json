@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-personal-Portfolio/static/css/main.28182277.chunk.css",
+    "main.js": "/My-personal-Portfolio/static/js/main.0f013256.chunk.js",
+    "main.js.map": "/My-personal-Portfolio/static/js/main.0f013256.chunk.js.map",
+    "runtime-main.js": "/My-personal-Portfolio/static/js/runtime-main.fa247fb3.js",
+    "runtime-main.js.map": "/My-personal-Portfolio/static/js/runtime-main.fa247fb3.js.map",
+    "static/js/2.8f3e6ac0.chunk.js": "/My-personal-Portfolio/static/js/2.8f3e6ac0.chunk.js",
+    "static/js/2.8f3e6ac0.chunk.js.map": "/My-personal-Portfolio/static/js/2.8f3e6ac0.chunk.js.map",
+    "index.html": "/My-personal-Portfolio/index.html",
+    "static/css/main.28182277.chunk.css.map": "/My-personal-Portfolio/static/css/main.28182277.chunk.css.map",
+    "static/js/2.8f3e6ac0.chunk.js.LICENSE.txt": "/My-personal-Portfolio/static/js/2.8f3e6ac0.chunk.js.LICENSE.txt",
+    "static/media/Skills.css": "/My-personal-Portfolio/static/media/react.e27571ea.svg",
+    "static/media/Nicklaus-foto.01bad341.jpeg": "/My-personal-Portfolio/static/media/Nicklaus-foto.01bad341.jpeg",
+    "static/media/Projects.css": "/My-personal-Portfolio/static/media/hamburger.3a5e1be3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa247fb3.js",
+    "static/js/2.8f3e6ac0.chunk.js",
+    "static/css/main.28182277.chunk.css",
+    "static/js/main.0f013256.chunk.js"
+  ]
+}
